@@ -1,0 +1,23 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  domain: MyString
+  description: MyText
+  aliases: 1
+  mailboxes: 1
+  maxquota: 1
+  quota: 1
+  transport: MyString
+  backupmx: false
+  active: false
+
+two:
+  domain: MyString
+  description: MyText
+  aliases: 1
+  mailboxes: 1
+  maxquota: 1
+  quota: 1
+  transport: MyString
+  backupmx: false
+  active: false

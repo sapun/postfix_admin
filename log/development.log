@@ -321,3 +321,1535 @@ Processing IndexController#index (for 127.0.0.1 at 2010-08-25 15:32:08) [GET]
   [4;35;1mPost Load (0.6ms)[0m   [0mSELECT * FROM "posts" WHERE ("posts"."id" = '2') LIMIT 1[0m
 Rendering index/index
 Completed in 35ms (View: 18, DB: 1) | 200 OK [http://localhost/index/]
+
+
+Processing IndexController#index (for 127.0.0.1 at 2010-08-25 15:49:59) [GET]
+Rendering index/index
+Completed in 29ms (View: 25, DB: 0) | 200 OK [http://localhost/index/]
+
+
+Processing IndexController#index (for 127.0.0.1 at 2010-08-25 15:50:00) [GET]
+Rendering index/index
+Completed in 18ms (View: 14, DB: 0) | 200 OK [http://localhost/index/]
+
+
+Processing DomainController#index (for 127.0.0.1 at 2010-08-25 15:50:08) [GET]
+  [4;36;1mDomain Load (1.6ms)[0m   [0;1mSELECT * FROM "domains" LIMIT 30 OFFSET 0[0m
+
+ActionView::MissingTemplate (Missing layout layouts/admin.erb in view path app/views):
+  haml (3.0.16) rails/./lib/sass/plugin/rack.rb:41:in `call'
+  /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (internal_server_error)
+
+
+Processing DomainController#index (for 127.0.0.1 at 2010-08-25 15:50:15) [GET]
+  [4;35;1mDomain Load (1.8ms)[0m   [0mSELECT * FROM "domains" LIMIT 30 OFFSET 0[0m
+
+ActionView::MissingTemplate (Missing layout layouts/admin.erb in view path app/views):
+  haml (3.0.16) rails/./lib/sass/plugin/rack.rb:41:in `call'
+  /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (internal_server_error)
+
+
+Processing DomainController#index (for 127.0.0.1 at 2010-08-25 15:55:58) [GET]
+  [4;36;1mDomain Load (0.8ms)[0m   [0;1mSELECT * FROM "domains" LIMIT 30 OFFSET 0[0m
+
+ActionView::MissingTemplate (Missing layout layouts/admin.erb in view path app/views):
+  haml (3.0.16) rails/./lib/sass/plugin/rack.rb:41:in `call'
+  /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (internal_server_error)
+
+
+Processing DomainController#index (for 127.0.0.1 at 2010-08-25 15:57:37) [GET]
+  [4;35;1mDomain Load (1.2ms)[0m   [0mSELECT * FROM "domains" LIMIT 30 OFFSET 0[0m
+
+ActionView::MissingTemplate (Missing layout layouts/admin.erb in view path app/views):
+  haml (3.0.16) rails/./lib/sass/plugin/rack.rb:41:in `call'
+  /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (internal_server_error)
+
+
+Processing DomainController#index (for 127.0.0.1 at 2010-08-25 15:57:38) [GET]
+  [4;36;1mDomain Load (0.6ms)[0m   [0;1mSELECT * FROM "domains" LIMIT 30 OFFSET 0[0m
+
+ActionView::MissingTemplate (Missing layout layouts/admin.erb in view path app/views):
+  haml (3.0.16) rails/./lib/sass/plugin/rack.rb:41:in `call'
+  /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (internal_server_error)
+
+
+Processing DomainController#index (for 127.0.0.1 at 2010-08-25 15:58:58) [GET]
+  [4;36;1mDomain Load (1.5ms)[0m   [0;1mSELECT * FROM "domains" LIMIT 30 OFFSET 0[0m
+Rendering template within layouts/admin
+Rendering domain/index
+  [4;35;1mSQL (0.8ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.7ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+
+ActionView::TemplateError (undefined local variable or method `new_domain_game_path' for #<ActionView::Base:0xa975d24>) on line #3 of app/views/domain/index.html.haml:
+1: %h1=t('g.domain')
+2: 
+3: =link_to t('g.domain'), new_domain_game_path
+4: 
+5: -game_attrs = %w(domain description aliases mailboxes maxquota quota transport backupmx active)
+6: 
+
+    app/views/domain/index.html.haml:3:in `_run_haml_app47views47domain47index46html46haml'
+    haml (3.0.16) rails/./lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (3.0.16) rails/./lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (3.0.16) rails/./lib/sass/plugin/rack.rb:41:in `call'
+    /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (292.6ms)
+Rendered rescues/_request_and_response (3.2ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing DomainController#index (for 127.0.0.1 at 2010-08-25 15:59:27) [GET]
+  [4;35;1mDomain Load (0.6ms)[0m   [0mSELECT * FROM "domains" LIMIT 30 OFFSET 0[0m
+Rendering template within layouts/admin
+Rendering domain/index
+  [4;36;1mSQL (0.4ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.4ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+
+ActionView::TemplateError (undefined local variable or method `new_domain_game_path' for #<ActionView::Base:0xaac1a0c>) on line #3 of app/views/domain/index.html.haml:
+1: %h1=t('g.domain')
+2: 
+3: =link_to t('g.domain'), new_domain_game_path
+4: 
+5: -domain_attrs = %w(domain description aliases mailboxes maxquota quota transport backupmx active)
+6: 
+
+    app/views/domain/index.html.haml:3:in `_run_haml_app47views47domain47index46html46haml'
+    haml (3.0.16) rails/./lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (3.0.16) rails/./lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (3.0.16) rails/./lib/sass/plugin/rack.rb:41:in `call'
+    /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (60.1ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing DomainController#index (for 127.0.0.1 at 2010-08-25 15:59:29) [GET]
+  [4;36;1mDomain Load (1.2ms)[0m   [0;1mSELECT * FROM "domains" LIMIT 30 OFFSET 0[0m
+Rendering template within layouts/admin
+Rendering domain/index
+  [4;35;1mSQL (0.7ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.7ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+
+ActionView::TemplateError (undefined local variable or method `new_domain_game_path' for #<ActionView::Base:0xab76c40>) on line #3 of app/views/domain/index.html.haml:
+1: %h1=t('g.domain')
+2: 
+3: =link_to t('g.domain'), new_domain_game_path
+4: 
+5: -domain_attrs = %w(domain description aliases mailboxes maxquota quota transport backupmx active)
+6: 
+
+    app/views/domain/index.html.haml:3:in `_run_haml_app47views47domain47index46html46haml'
+    haml (3.0.16) rails/./lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (3.0.16) rails/./lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (3.0.16) rails/./lib/sass/plugin/rack.rb:41:in `call'
+    /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (83.5ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing DomainController#index (for 127.0.0.1 at 2010-08-25 16:00:42) [GET]
+  [4;35;1mDomain Load (2.9ms)[0m   [0mSELECT * FROM "domains" LIMIT 30 OFFSET 0[0m
+Rendering template within layouts/admin
+Rendering domain/index
+  [4;36;1mSQL (0.7ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.7ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+
+ActionView::TemplateError (undefined local variable or method `new_domains_game_path' for #<ActionView::Base:0xa9a4e6c>) on line #3 of app/views/domain/index.html.haml:
+1: %h1=t('g.domain')
+2: 
+3: =link_to t('g.domain'), new_domains_game_path
+4: 
+5: -domain_attrs = %w(domain description aliases mailboxes maxquota quota transport backupmx active)
+6: 
+
+    app/views/domain/index.html.haml:3:in `_run_haml_app47views47domain47index46html46haml'
+    haml (3.0.16) rails/./lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (3.0.16) rails/./lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (3.0.16) rails/./lib/sass/plugin/rack.rb:41:in `call'
+    /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (51.5ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing DomainController#index (for 127.0.0.1 at 2010-08-25 16:00:43) [GET]
+  [4;36;1mDomain Load (1.5ms)[0m   [0;1mSELECT * FROM "domains" LIMIT 30 OFFSET 0[0m
+Rendering template within layouts/admin
+Rendering domain/index
+  [4;35;1mSQL (1.5ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.7ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+
+ActionView::TemplateError (undefined local variable or method `new_domains_game_path' for #<ActionView::Base:0xaa41028>) on line #3 of app/views/domain/index.html.haml:
+1: %h1=t('g.domain')
+2: 
+3: =link_to t('g.domain'), new_domains_game_path
+4: 
+5: -domain_attrs = %w(domain description aliases mailboxes maxquota quota transport backupmx active)
+6: 
+
+    app/views/domain/index.html.haml:3:in `_run_haml_app47views47domain47index46html46haml'
+    haml (3.0.16) rails/./lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (3.0.16) rails/./lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (3.0.16) rails/./lib/sass/plugin/rack.rb:41:in `call'
+    /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (318.3ms)
+Rendered rescues/_request_and_response (0.6ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing DomainController#index (for 127.0.0.1 at 2010-08-25 16:01:04) [GET]
+  [4;35;1mDomain Load (1.1ms)[0m   [0mSELECT * FROM "domains" LIMIT 30 OFFSET 0[0m
+Rendering template within layouts/admin
+Rendering domain/index
+  [4;36;1mSQL (0.7ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.3ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+
+ActionView::TemplateError (undefined local variable or method `new_domain_path' for #<ActionView::Base:0xab2f098>) on line #3 of app/views/domain/index.html.haml:
+1: %h1=t('g.domain')
+2: 
+3: =link_to t('g.domain'), new_domain_path
+4: 
+5: -domain_attrs = %w(domain description aliases mailboxes maxquota quota transport backupmx active)
+6: 
+
+    app/views/domain/index.html.haml:3:in `_run_haml_app47views47domain47index46html46haml'
+    haml (3.0.16) rails/./lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (3.0.16) rails/./lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (3.0.16) rails/./lib/sass/plugin/rack.rb:41:in `call'
+    /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (50.9ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing DomainController#index (for 127.0.0.1 at 2010-08-25 16:01:06) [GET]
+  [4;36;1mDomain Load (0.6ms)[0m   [0;1mSELECT * FROM "domains" LIMIT 30 OFFSET 0[0m
+Rendering template within layouts/admin
+Rendering domain/index
+  [4;35;1mSQL (0.3ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+
+ActionView::TemplateError (undefined local variable or method `new_domain_path' for #<ActionView::Base:0xa958b84>) on line #3 of app/views/domain/index.html.haml:
+1: %h1=t('g.domain')
+2: 
+3: =link_to t('g.domain'), new_domain_path
+4: 
+5: -domain_attrs = %w(domain description aliases mailboxes maxquota quota transport backupmx active)
+6: 
+
+    app/views/domain/index.html.haml:3:in `_run_haml_app47views47domain47index46html46haml'
+    haml (3.0.16) rails/./lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (3.0.16) rails/./lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (3.0.16) rails/./lib/sass/plugin/rack.rb:41:in `call'
+    /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (53.6ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing DomainController#index (for 127.0.0.1 at 2010-08-25 16:02:28) [GET]
+  [4;36;1mDomain Load (2.5ms)[0m   [0;1mSELECT * FROM "domains" LIMIT 30 OFFSET 0[0m
+Rendering template within layouts/admin
+Rendering domain/index
+  [4;35;1mSQL (0.6ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+
+ActionView::TemplateError (undefined local variable or method `new_domain_path' for #<ActionView::Base:0xb0c39c8>) on line #3 of app/views/domain/index.html.haml:
+1: %h1=t('g.domain')
+2: 
+3: =link_to t('g.domain'), new_domain_path
+4: 
+5: -domain_attrs = %w(domain description aliases mailboxes maxquota quota transport backupmx active)
+6: 
+
+    app/views/domain/index.html.haml:3:in `_run_haml_app47views47domain47index46html46haml'
+    haml (3.0.16) rails/./lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (3.0.16) rails/./lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (3.0.16) rails/./lib/sass/plugin/rack.rb:41:in `call'
+    /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (169.8ms)
+Rendered rescues/_request_and_response (1.5ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing DomainController#index (for 127.0.0.1 at 2010-08-25 16:02:42) [GET]
+  [4;35;1mDomain Load (1.2ms)[0m   [0mSELECT * FROM "domains" LIMIT 30 OFFSET 0[0m
+Rendering template within layouts/admin
+Rendering domain/index
+  [4;36;1mSQL (1.7ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.7ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+
+ActionView::TemplateError (undefined local variable or method `new_domains_path' for #<ActionView::Base:0xb20fa48>) on line #3 of app/views/domain/index.html.haml:
+1: %h1=t('g.domain')
+2: 
+3: =link_to t('g.domain'), new_domains_path
+4: 
+5: -domain_attrs = %w(domain description aliases mailboxes maxquota quota transport backupmx active)
+6: 
+
+    app/views/domain/index.html.haml:3:in `_run_haml_app47views47domain47index46html46haml'
+    haml (3.0.16) rails/./lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (3.0.16) rails/./lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (3.0.16) rails/./lib/sass/plugin/rack.rb:41:in `call'
+    /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (80.8ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing DomainController#index (for 127.0.0.1 at 2010-08-25 16:02:43) [GET]
+  [4;36;1mDomain Load (1.2ms)[0m   [0;1mSELECT * FROM "domains" LIMIT 30 OFFSET 0[0m
+Rendering template within layouts/admin
+Rendering domain/index
+  [4;35;1mSQL (1.0ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.9ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+
+ActionView::TemplateError (undefined local variable or method `new_domains_path' for #<ActionView::Base:0xb2c4c68>) on line #3 of app/views/domain/index.html.haml:
+1: %h1=t('g.domain')
+2: 
+3: =link_to t('g.domain'), new_domains_path
+4: 
+5: -domain_attrs = %w(domain description aliases mailboxes maxquota quota transport backupmx active)
+6: 
+
+    app/views/domain/index.html.haml:3:in `_run_haml_app47views47domain47index46html46haml'
+    haml (3.0.16) rails/./lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (3.0.16) rails/./lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (3.0.16) rails/./lib/sass/plugin/rack.rb:41:in `call'
+    /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (69.2ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing DomainController#index (for 127.0.0.1 at 2010-08-25 16:04:40) [GET]
+  [4;35;1mDomain Load (0.6ms)[0m   [0mSELECT * FROM "domains" LIMIT 30 OFFSET 0[0m
+Rendering template within layouts/admin
+Rendering domain/index
+  [4;36;1mSQL (1.1ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.4ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+
+ActionView::TemplateError (undefined local variable or method `new_domains_path' for #<ActionView::Base:0xb0b0d3c>) on line #3 of app/views/domain/index.html.haml:
+1: %h1=t('g.domain')
+2: 
+3: =link_to t('g.domain'), new_domains_path
+4: 
+5: -domain_attrs = %w(domain description aliases mailboxes maxquota quota transport backupmx active)
+6: 
+
+    app/views/domain/index.html.haml:3:in `_run_haml_app47views47domain47index46html46haml'
+    haml (3.0.16) rails/./lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (3.0.16) rails/./lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (3.0.16) rails/./lib/sass/plugin/rack.rb:41:in `call'
+    /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (59.8ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing DomainController#index (for 127.0.0.1 at 2010-08-25 16:04:41) [GET]
+  [4;36;1mDomain Load (0.6ms)[0m   [0;1mSELECT * FROM "domains" LIMIT 30 OFFSET 0[0m
+Rendering template within layouts/admin
+Rendering domain/index
+  [4;35;1mSQL (1.1ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+
+ActionView::TemplateError (undefined local variable or method `new_domains_path' for #<ActionView::Base:0xb1706c8>) on line #3 of app/views/domain/index.html.haml:
+1: %h1=t('g.domain')
+2: 
+3: =link_to t('g.domain'), new_domains_path
+4: 
+5: -domain_attrs = %w(domain description aliases mailboxes maxquota quota transport backupmx active)
+6: 
+
+    app/views/domain/index.html.haml:3:in `_run_haml_app47views47domain47index46html46haml'
+    haml (3.0.16) rails/./lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (3.0.16) rails/./lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (3.0.16) rails/./lib/sass/plugin/rack.rb:41:in `call'
+    /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (139.5ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing DomainController#index (for 127.0.0.1 at 2010-08-25 16:04:54) [GET]
+  [4;35;1mDomain Load (1.2ms)[0m   [0mSELECT * FROM "domains" LIMIT 30 OFFSET 0[0m
+Rendering template within layouts/admin
+Rendering domain/index
+
+ActionView::TemplateError (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.empty?) on line #7 of app/views/domain/index.html.haml:
+4: 
+5: -domain_attrs = %w(domain description aliases mailboxes maxquota quota transport backupmx active)
+6: 
+7: -unless @domains.empty?
+8:   %table{:cellpadding => 0, :cellspacing => 5}
+9:     %tr
+10:       -domains_attrs.each do |attr|
+
+    app/views/domain/index.html.haml:7:in `_run_haml_app47views47domain47index46html46haml'
+    haml (3.0.16) rails/./lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (3.0.16) rails/./lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (3.0.16) rails/./lib/sass/plugin/rack.rb:41:in `call'
+    /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (74.6ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing DomainController#index (for 127.0.0.1 at 2010-08-25 16:05:21) [GET]
+  [4;36;1mDomain Load (1.2ms)[0m   [0;1mSELECT * FROM "domains" LIMIT 30 OFFSET 0[0m
+Rendering template within layouts/admin
+Rendering domain/index
+
+ActionView::TemplateError (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.empty?) on line #7 of app/views/domain/index.html.haml:
+4: 
+5: -domain_attrs = %w(domain description aliases mailboxes maxquota quota transport backupmx active)
+6: 
+7: -unless @domains.empty?
+8:   %table{:cellpadding => 0, :cellspacing => 5}
+9:     %tr
+10:       -domains_attrs.each do |attr|
+
+    app/views/domain/index.html.haml:7:in `_run_haml_app47views47domain47index46html46haml'
+    haml (3.0.16) rails/./lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (3.0.16) rails/./lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (3.0.16) rails/./lib/sass/plugin/rack.rb:41:in `call'
+    /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (113.7ms)
+Rendered rescues/_request_and_response (0.6ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing DomainController#index (for 127.0.0.1 at 2010-08-25 16:05:22) [GET]
+  [4;35;1mDomain Load (1.2ms)[0m   [0mSELECT * FROM "domains" LIMIT 30 OFFSET 0[0m
+Rendering template within layouts/admin
+Rendering domain/index
+
+ActionView::TemplateError (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.empty?) on line #7 of app/views/domain/index.html.haml:
+4: 
+5: -domain_attrs = %w(domain description aliases mailboxes maxquota quota transport backupmx active)
+6: 
+7: -unless @domains.empty?
+8:   %table{:cellpadding => 0, :cellspacing => 5}
+9:     %tr
+10:       -domains_attrs.each do |attr|
+
+    app/views/domain/index.html.haml:7:in `_run_haml_app47views47domain47index46html46haml'
+    haml (3.0.16) rails/./lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (3.0.16) rails/./lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (3.0.16) rails/./lib/sass/plugin/rack.rb:41:in `call'
+    /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (178.0ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing DomainController#index (for 127.0.0.1 at 2010-08-25 16:08:51) [GET]
+  [4;36;1mDomain Load (1.2ms)[0m   [0;1mSELECT * FROM "domains" LIMIT 30 OFFSET 0[0m
+Rendering template within layouts/admin
+Rendering domain/index
+
+ActionView::TemplateError (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.empty?) on line #7 of app/views/domain/index.html.haml:
+4: 
+5: -domain_attrs = %w(domain description aliases mailboxes maxquota quota transport backupmx active)
+6: 
+7: -unless @domains.empty?
+8:   %table{:cellpadding => 0, :cellspacing => 5}
+9:     %tr
+10:       -domains_attrs.each do |attr|
+
+    app/views/domain/index.html.haml:7:in `_run_haml_app47views47domain47index46html46haml'
+    haml (3.0.16) rails/./lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (3.0.16) rails/./lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (3.0.16) rails/./lib/sass/plugin/rack.rb:41:in `call'
+    /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (85.9ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing DomainController#index (for 127.0.0.1 at 2010-08-25 16:08:52) [GET]
+  [4;35;1mDomain Load (0.8ms)[0m   [0mSELECT * FROM "domains" LIMIT 30 OFFSET 0[0m
+Rendering template within layouts/admin
+Rendering domain/index
+
+ActionView::TemplateError (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.empty?) on line #7 of app/views/domain/index.html.haml:
+4: 
+5: -domain_attrs = %w(domain description aliases mailboxes maxquota quota transport backupmx active)
+6: 
+7: -unless @domains.empty?
+8:   %table{:cellpadding => 0, :cellspacing => 5}
+9:     %tr
+10:       -domains_attrs.each do |attr|
+
+    app/views/domain/index.html.haml:7:in `_run_haml_app47views47domain47index46html46haml'
+    haml (3.0.16) rails/./lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (3.0.16) rails/./lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (3.0.16) rails/./lib/sass/plugin/rack.rb:41:in `call'
+    /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (53.9ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing DomainController#index (for 127.0.0.1 at 2010-08-25 16:08:58) [GET]
+  [4;36;1mDomain Load (1.3ms)[0m   [0;1mSELECT * FROM "domains" LIMIT 30 OFFSET 0[0m
+Rendering template within layouts/admin
+Rendering domain/index
+
+ActionView::TemplateError (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.empty?) on line #7 of app/views/domain/index.html.haml:
+4: 
+5: -domain_attrs = %w(domain description aliases mailboxes maxquota quota transport backupmx active)
+6: 
+7: -unless @domains.empty?
+8:   %table{:cellpadding => 0, :cellspacing => 5}
+9:     %tr
+10:       -domains_attrs.each do |attr|
+
+    app/views/domain/index.html.haml:7:in `_run_haml_app47views47domain47index46html46haml'
+    haml (3.0.16) rails/./lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (3.0.16) rails/./lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (3.0.16) rails/./lib/sass/plugin/rack.rb:41:in `call'
+    /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (309.6ms)
+Rendered rescues/_request_and_response (0.6ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing DomainController#index (for 127.0.0.1 at 2010-08-25 16:08:59) [GET]
+  [4;35;1mDomain Load (0.6ms)[0m   [0mSELECT * FROM "domains" LIMIT 30 OFFSET 0[0m
+Rendering template within layouts/admin
+Rendering domain/index
+
+ActionView::TemplateError (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.empty?) on line #7 of app/views/domain/index.html.haml:
+4: 
+5: -domain_attrs = %w(domain description aliases mailboxes maxquota quota transport backupmx active)
+6: 
+7: -unless @domains.empty?
+8:   %table{:cellpadding => 0, :cellspacing => 5}
+9:     %tr
+10:       -domains_attrs.each do |attr|
+
+    app/views/domain/index.html.haml:7:in `_run_haml_app47views47domain47index46html46haml'
+    haml (3.0.16) rails/./lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (3.0.16) rails/./lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (3.0.16) rails/./lib/sass/plugin/rack.rb:41:in `call'
+    /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (58.1ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing DomainController#index (for 127.0.0.1 at 2010-08-25 16:08:59) [GET]
+  [4;36;1mDomain Load (0.7ms)[0m   [0;1mSELECT * FROM "domains" LIMIT 30 OFFSET 0[0m
+Rendering template within layouts/admin
+Rendering domain/index
+
+ActionView::TemplateError (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.empty?) on line #7 of app/views/domain/index.html.haml:
+4: 
+5: -domain_attrs = %w(domain description aliases mailboxes maxquota quota transport backupmx active)
+6: 
+7: -unless @domains.empty?
+8:   %table{:cellpadding => 0, :cellspacing => 5}
+9:     %tr
+10:       -domains_attrs.each do |attr|
+
+    app/views/domain/index.html.haml:7:in `_run_haml_app47views47domain47index46html46haml'
+    haml (3.0.16) rails/./lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (3.0.16) rails/./lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (3.0.16) rails/./lib/sass/plugin/rack.rb:41:in `call'
+    /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (53.2ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing DomainController#index (for 127.0.0.1 at 2010-08-25 16:08:59) [GET]
+  [4;35;1mDomain Load (0.6ms)[0m   [0mSELECT * FROM "domains" LIMIT 30 OFFSET 0[0m
+Rendering template within layouts/admin
+Rendering domain/index
+
+ActionView::TemplateError (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.empty?) on line #7 of app/views/domain/index.html.haml:
+4: 
+5: -domain_attrs = %w(domain description aliases mailboxes maxquota quota transport backupmx active)
+6: 
+7: -unless @domains.empty?
+8:   %table{:cellpadding => 0, :cellspacing => 5}
+9:     %tr
+10:       -domains_attrs.each do |attr|
+
+    app/views/domain/index.html.haml:7:in `_run_haml_app47views47domain47index46html46haml'
+    haml (3.0.16) rails/./lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (3.0.16) rails/./lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (3.0.16) rails/./lib/sass/plugin/rack.rb:41:in `call'
+    /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (145.3ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing DomainController#index (for 127.0.0.1 at 2010-08-25 16:09:00) [GET]
+  [4;36;1mDomain Load (0.6ms)[0m   [0;1mSELECT * FROM "domains" LIMIT 30 OFFSET 0[0m
+Rendering template within layouts/admin
+Rendering domain/index
+
+ActionView::TemplateError (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.empty?) on line #7 of app/views/domain/index.html.haml:
+4: 
+5: -domain_attrs = %w(domain description aliases mailboxes maxquota quota transport backupmx active)
+6: 
+7: -unless @domains.empty?
+8:   %table{:cellpadding => 0, :cellspacing => 5}
+9:     %tr
+10:       -domains_attrs.each do |attr|
+
+    app/views/domain/index.html.haml:7:in `_run_haml_app47views47domain47index46html46haml'
+    haml (3.0.16) rails/./lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (3.0.16) rails/./lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (3.0.16) rails/./lib/sass/plugin/rack.rb:41:in `call'
+    /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (53.0ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing DomainController#index (for 127.0.0.1 at 2010-08-25 16:09:00) [GET]
+  [4;35;1mDomain Load (0.6ms)[0m   [0mSELECT * FROM "domains" LIMIT 30 OFFSET 0[0m
+Rendering template within layouts/admin
+Rendering domain/index
+
+ActionView::TemplateError (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.empty?) on line #7 of app/views/domain/index.html.haml:
+4: 
+5: -domain_attrs = %w(domain description aliases mailboxes maxquota quota transport backupmx active)
+6: 
+7: -unless @domains.empty?
+8:   %table{:cellpadding => 0, :cellspacing => 5}
+9:     %tr
+10:       -domains_attrs.each do |attr|
+
+    app/views/domain/index.html.haml:7:in `_run_haml_app47views47domain47index46html46haml'
+    haml (3.0.16) rails/./lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (3.0.16) rails/./lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (3.0.16) rails/./lib/sass/plugin/rack.rb:41:in `call'
+    /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (52.2ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing DomainController#index (for 127.0.0.1 at 2010-08-25 16:09:02) [GET]
+  [4;36;1mDomain Load (1.2ms)[0m   [0;1mSELECT * FROM "domains" LIMIT 30 OFFSET 0[0m
+Rendering template within layouts/admin
+Rendering domain/index
+
+ActionView::TemplateError (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.empty?) on line #7 of app/views/domain/index.html.haml:
+4: 
+5: -domain_attrs = %w(domain description aliases mailboxes maxquota quota transport backupmx active)
+6: 
+7: -unless @domains.empty?
+8:   %table{:cellpadding => 0, :cellspacing => 5}
+9:     %tr
+10:       -domains_attrs.each do |attr|
+
+    app/views/domain/index.html.haml:7:in `_run_haml_app47views47domain47index46html46haml'
+    haml (3.0.16) rails/./lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (3.0.16) rails/./lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (3.0.16) rails/./lib/sass/plugin/rack.rb:41:in `call'
+    /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (235.6ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing DomainController#index (for 127.0.0.1 at 2010-08-25 16:09:02) [GET]
+  [4;35;1mDomain Load (0.6ms)[0m   [0mSELECT * FROM "domains" LIMIT 30 OFFSET 0[0m
+Rendering template within layouts/admin
+Rendering domain/index
+
+ActionView::TemplateError (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.empty?) on line #7 of app/views/domain/index.html.haml:
+4: 
+5: -domain_attrs = %w(domain description aliases mailboxes maxquota quota transport backupmx active)
+6: 
+7: -unless @domains.empty?
+8:   %table{:cellpadding => 0, :cellspacing => 5}
+9:     %tr
+10:       -domains_attrs.each do |attr|
+
+    app/views/domain/index.html.haml:7:in `_run_haml_app47views47domain47index46html46haml'
+    haml (3.0.16) rails/./lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (3.0.16) rails/./lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (3.0.16) rails/./lib/sass/plugin/rack.rb:41:in `call'
+    /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (53.2ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing DomainController#index (for 127.0.0.1 at 2010-08-25 16:09:03) [GET]
+  [4;36;1mDomain Load (0.6ms)[0m   [0;1mSELECT * FROM "domains" LIMIT 30 OFFSET 0[0m
+Rendering template within layouts/admin
+Rendering domain/index
+
+ActionView::TemplateError (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.empty?) on line #7 of app/views/domain/index.html.haml:
+4: 
+5: -domain_attrs = %w(domain description aliases mailboxes maxquota quota transport backupmx active)
+6: 
+7: -unless @domains.empty?
+8:   %table{:cellpadding => 0, :cellspacing => 5}
+9:     %tr
+10:       -domains_attrs.each do |attr|
+
+    app/views/domain/index.html.haml:7:in `_run_haml_app47views47domain47index46html46haml'
+    haml (3.0.16) rails/./lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (3.0.16) rails/./lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (3.0.16) rails/./lib/sass/plugin/rack.rb:41:in `call'
+    /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (57.0ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing DomainController#index (for 127.0.0.1 at 2010-08-25 16:09:04) [GET]
+  [4;35;1mDomain Load (1.2ms)[0m   [0mSELECT * FROM "domains" LIMIT 30 OFFSET 0[0m
+Rendering template within layouts/admin
+Rendering domain/index
+
+ActionView::TemplateError (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.empty?) on line #7 of app/views/domain/index.html.haml:
+4: 
+5: -domain_attrs = %w(domain description aliases mailboxes maxquota quota transport backupmx active)
+6: 
+7: -unless @domains.empty?
+8:   %table{:cellpadding => 0, :cellspacing => 5}
+9:     %tr
+10:       -domains_attrs.each do |attr|
+
+    app/views/domain/index.html.haml:7:in `_run_haml_app47views47domain47index46html46haml'
+    haml (3.0.16) rails/./lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (3.0.16) rails/./lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (3.0.16) rails/./lib/sass/plugin/rack.rb:41:in `call'
+    /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (173.6ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing DomainController#index (for 127.0.0.1 at 2010-08-25 16:09:06) [GET]
+  [4;36;1mDomain Load (1.2ms)[0m   [0;1mSELECT * FROM "domains" LIMIT 30 OFFSET 0[0m
+Rendering template within layouts/admin
+Rendering domain/index
+
+ActionView::TemplateError (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.empty?) on line #7 of app/views/domain/index.html.haml:
+4: 
+5: -domain_attrs = %w(domain description aliases mailboxes maxquota quota transport backupmx active)
+6: 
+7: -unless @domains.empty?
+8:   %table{:cellpadding => 0, :cellspacing => 5}
+9:     %tr
+10:       -domains_attrs.each do |attr|
+
+    app/views/domain/index.html.haml:7:in `_run_haml_app47views47domain47index46html46haml'
+    haml (3.0.16) rails/./lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (3.0.16) rails/./lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (3.0.16) rails/./lib/sass/plugin/rack.rb:41:in `call'
+    /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (142.8ms)
+Rendered rescues/_request_and_response (0.6ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing DomainController#index (for 127.0.0.1 at 2010-08-25 16:09:28) [GET]
+  [4;35;1mDomain Load (1.2ms)[0m   [0mSELECT * FROM "domains" LIMIT 30 OFFSET 0[0m
+Rendering template within layouts/admin
+Rendering domain/index
+  [4;36;1mSQL (0.7ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.7ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+
+ActionView::TemplateError (undefined method `admin_games_path' for #<ActionView::Base:0xb2ebe44>) on line #11 of app/views/layouts/admin.html.haml:
+8:   %body
+9:     %ul#menu
+10:       -%w(games teams tasks users).each do |model|
+11:         %li=link_to t("g.#{model}"), send("admin_#{model}_path")
+12:       
+13:     -flash.each do |k, v|
+14:       %div.flash{:id => k}=v
+
+    app/views/layouts/admin.html.haml:11:in `send'
+    app/views/layouts/admin.html.haml:11:in `_run_haml_app47views47layouts47admin46html46haml'
+    app/views/layouts/admin.html.haml:10:in `each'
+    app/views/layouts/admin.html.haml:10:in `_run_haml_app47views47layouts47admin46html46haml'
+    haml (3.0.16) rails/./lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (3.0.16) rails/./lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (3.0.16) rails/./lib/sass/plugin/rack.rb:41:in `call'
+    /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (131.3ms)
+Rendered rescues/_request_and_response (0.6ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing DomainController#index (for 127.0.0.1 at 2010-08-25 16:09:48) [GET]
+  [4;36;1mDomain Load (1.2ms)[0m   [0;1mSELECT * FROM "domains" LIMIT 30 OFFSET 0[0m
+Rendering template within layouts/admin
+Rendering domain/index
+  [4;35;1mSQL (0.7ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.7ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+
+ActionView::TemplateError (undefined method `admin_games_path' for #<ActionView::Base:0xb0deee4>) on line #11 of app/views/layouts/admin.html.haml:
+8:   %body
+9:     %ul#menu
+10:       -%w(games teams tasks users).each do |model|
+11:         %li=link_to t("g.#{model}"), send("admin_#{model}_path")
+12:       
+13:     -flash.each do |k, v|
+14:       %div.flash{:id => k}=v
+
+    app/views/layouts/admin.html.haml:11:in `send'
+    app/views/layouts/admin.html.haml:11:in `_run_haml_app47views47layouts47admin46html46haml'
+    app/views/layouts/admin.html.haml:10:in `each'
+    app/views/layouts/admin.html.haml:10:in `_run_haml_app47views47layouts47admin46html46haml'
+    haml (3.0.16) rails/./lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (3.0.16) rails/./lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (3.0.16) rails/./lib/sass/plugin/rack.rb:41:in `call'
+    /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (59.5ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing DomainController#index (for 127.0.0.1 at 2010-08-25 16:12:44) [GET]
+  [4;35;1mDomain Load (1.7ms)[0m   [0mSELECT * FROM "domains" LIMIT 30 OFFSET 0[0m
+Rendering template within layouts/admin
+Rendering domain/index
+
+ActionView::TemplateError (domain_url failed to generate from {:controller=>"domain", :action=>"show"} - you may have ambiguous routes, or you may need to supply additional parameters for this route.  content_url has the following required parameters: ["domain", :id] - are they all satisfied?) on line #11 of app/views/layouts/admin.html.haml:
+8:   %body
+9:     %ul#menu
+10:       -%w(domain mailbox alias).each do |model|
+11:         %li=link_to t("g.#{model}"), send("#{model}_path")
+12:       
+13:     -flash.each do |k, v|
+14:       %div.flash{:id => k}=v
+
+    (eval):17:in `domain_path'
+    app/views/layouts/admin.html.haml:11:in `send'
+    app/views/layouts/admin.html.haml:11:in `_run_haml_app47views47layouts47admin46html46haml'
+    app/views/layouts/admin.html.haml:10:in `each'
+    app/views/layouts/admin.html.haml:10:in `_run_haml_app47views47layouts47admin46html46haml'
+    haml (3.0.16) rails/./lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (3.0.16) rails/./lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (3.0.16) rails/./lib/sass/plugin/rack.rb:41:in `call'
+    /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (136.1ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing DomainController#show (for 127.0.0.1 at 2010-08-25 16:13:33) [GET]
+  Parameters: {"id"=>"index"}
+
+ActionController::UnknownAction (No action responded to show. Actions: create, edit, index, new, and update):
+  haml (3.0.16) rails/./lib/sass/plugin/rack.rb:41:in `call'
+  /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing DomainController#show (for 127.0.0.1 at 2010-08-25 16:13:36) [GET]
+  Parameters: {"id"=>"index"}
+
+ActionController::UnknownAction (No action responded to show. Actions: create, edit, index, new, and update):
+  haml (3.0.16) rails/./lib/sass/plugin/rack.rb:41:in `call'
+  /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing DomainController#index (for 127.0.0.1 at 2010-08-25 16:15:46) [GET]
+  [4;36;1mDomain Load (1.2ms)[0m   [0;1mSELECT * FROM "domains" LIMIT 30 OFFSET 0[0m
+Rendering template within layouts/admin
+Rendering domain/index
+  [4;35;1mSQL (0.7ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.7ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+
+ActionView::TemplateError (undefined local variable or method `new_domain_path' for #<ActionView::Base:0xb136388>) on line #3 of app/views/domain/index.html.haml:
+1: %h1=t('g.domain')
+2: 
+3: =link_to t('g.domain'), new_domain_path
+4: 
+5: -domain_attrs = %w(domain description aliases mailboxes maxquota quota transport backupmx active)
+6: 
+
+    app/views/domain/index.html.haml:3:in `_run_haml_app47views47domain47index46html46haml'
+    haml (3.0.16) rails/./lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (3.0.16) rails/./lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (3.0.16) rails/./lib/sass/plugin/rack.rb:41:in `call'
+    /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (175.8ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing DomainController#show (for 127.0.0.1 at 2010-08-25 16:16:31) [GET]
+  Parameters: {"id"=>"index"}
+
+ActionController::UnknownAction (No action responded to show. Actions: create, edit, index, new, and update):
+  haml (3.0.16) rails/./lib/sass/plugin/rack.rb:41:in `call'
+  /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing DomainController#show (for 127.0.0.1 at 2010-08-25 16:17:21) [GET]
+  Parameters: {"id"=>"index"}
+
+ActionController::UnknownAction (No action responded to show. Actions: create, edit, index, new, and update):
+  haml (3.0.16) rails/./lib/sass/plugin/rack.rb:41:in `call'
+  /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing DomainController#show (for 127.0.0.1 at 2010-08-25 16:17:22) [GET]
+  Parameters: {"id"=>"index"}
+
+ActionController::UnknownAction (No action responded to show. Actions: create, edit, index, new, and update):
+  haml (3.0.16) rails/./lib/sass/plugin/rack.rb:41:in `call'
+  /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing DomainController#show (for 127.0.0.1 at 2010-08-25 16:17:22) [GET]
+  Parameters: {"id"=>"index"}
+
+ActionController::UnknownAction (No action responded to show. Actions: create, edit, index, new, and update):
+  haml (3.0.16) rails/./lib/sass/plugin/rack.rb:41:in `call'
+  /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing DomainController#show (for 127.0.0.1 at 2010-08-25 16:17:23) [GET]
+  Parameters: {"id"=>"index"}
+
+ActionController::UnknownAction (No action responded to show. Actions: create, edit, index, new, and update):
+  haml (3.0.16) rails/./lib/sass/plugin/rack.rb:41:in `call'
+  /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing DomainController#show (for 127.0.0.1 at 2010-08-25 16:17:23) [GET]
+  Parameters: {"id"=>"index"}
+
+ActionController::UnknownAction (No action responded to show. Actions: create, edit, index, new, and update):
+  haml (3.0.16) rails/./lib/sass/plugin/rack.rb:41:in `call'
+  /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing DomainController#show (for 127.0.0.1 at 2010-08-25 16:17:23) [GET]
+  Parameters: {"id"=>"index"}
+
+ActionController::UnknownAction (No action responded to show. Actions: create, edit, index, new, and update):
+  haml (3.0.16) rails/./lib/sass/plugin/rack.rb:41:in `call'
+  /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing DomainController#show (for 127.0.0.1 at 2010-08-25 16:24:55) [GET]
+  Parameters: {"id"=>"index"}
+
+ActionController::UnknownAction (No action responded to show. Actions: create, edit, index, new, and update):
+  haml (3.0.16) rails/./lib/sass/plugin/rack.rb:41:in `call'
+  /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /opt/ruby-enterprise-1.8.7-2010.01/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)

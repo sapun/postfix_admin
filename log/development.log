@@ -280,3 +280,44 @@ Processing IndexController#index (for 127.0.0.1 at 2010-06-09 19:09:20) [GET]
   [4;36;1mPost Load (4.8ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."id" = '2') LIMIT 1[0m
 Rendering index/index
 Completed in 33ms (View: 8, DB: 5) | 200 OK [http://localhost/]
+  [4;36;1mSQL (30.1ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.7ms)[0m   [0mSELECT version FROM schema_migrations[0m
+Migrating to CreatePosts (20100602105341)
+Migrating to CreateAdmins (20100603072545)
+Migrating to CreateAliases (20100603072909)
+Migrating to CreateDomains (20100603073455)
+Migrating to CreateDomainAdmins (20100603073622)
+Migrating to CreateMailboxes (20100603073832)
+Migrating to CreateRedirects (20100603074002)
+  [4;36;1mSQL (0.3ms)[0m   [0;1mselect sqlite_version(*)[0m
+  [4;35;1mSQL (0.7ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.7ms)[0m   [0;1mSELECT version FROM schema_migrations[0m
+  [4;35;1mSQL (0.6ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mPRAGMA index_list("admins")[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mPRAGMA index_list("aliases")[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mPRAGMA index_list("domain_admins")[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mPRAGMA index_list("domains")[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mPRAGMA index_list("mailboxes")[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mPRAGMA index_list("posts")[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mPRAGMA index_list("redirects")[0m
+
+
+Processing IndexController#index (for 127.0.0.1 at 2010-08-25 15:31:04) [GET]
+  [4;36;1mPost Load (0.3ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."id" = '2') LIMIT 1[0m
+Rendering index/index
+Completed in 55ms (View: 47, DB: 0) | 200 OK [http://localhost/index/]
+
+
+Processing IndexController#index (for 127.0.0.1 at 2010-08-25 15:32:08) [GET]
+  [4;35;1mPost Load (0.6ms)[0m   [0mSELECT * FROM "posts" WHERE ("posts"."id" = '2') LIMIT 1[0m
+Rendering index/index
+Completed in 35ms (View: 18, DB: 1) | 200 OK [http://localhost/index/]
